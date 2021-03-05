@@ -23,6 +23,8 @@ function convertArrayToObject(){
 }
 convertArrayToObject(students)
 
+// Copy the student1 object to newStudent without mutating the original object.
+
 const student1 = {
     name: 'David',
     age: 25,

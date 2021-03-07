@@ -21,10 +21,11 @@ function convertArrayToObject(){
     // let newObj = Object.fromEntries(students);
     // console.log(newObj);
     let obj = {};
-    students[0][0];
-    students[0][1];
-    students[0][2];
+    obj.push(students[0][0]);
+    obj.push(students[0][1]);
+    obj.push(students[0][2]);
 }
+console.log(obj)
 convertArrayToObject(students)
 
 // Copy the student1 object to newStudent without mutating the original object.

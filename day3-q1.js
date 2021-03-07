@@ -20,6 +20,10 @@ function convertArrayToObject(){
     // console.log(newObject);
     // let newObj = Object.fromEntries(students);
     // console.log(newObj);
+    let obj = {};
+    students[0][0];
+    students[0][1];
+    students[0][2];
 }
 convertArrayToObject(students)
 
